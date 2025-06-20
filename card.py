@@ -38,5 +38,5 @@ class Card:
         else:
             return int(self.rank.value)
 
-    def __str__(self) -> 'str':
+    def __str__(self) -> str:
         return f"{self.rank.value}{self.suit.value}"
